@@ -10859,6 +10859,10 @@ body {
   color: rgba(255, 255, 255, 0.75) !important;
 }
 
+.text-center{
+  text-align: center;
+}
+
 .btn-xl {
   padding: 1.25rem 2.25rem;
   font-size: 0.85rem;
