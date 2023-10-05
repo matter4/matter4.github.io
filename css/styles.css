@@ -10889,6 +10889,24 @@ hr.divider-light {
   background-color: #fff;
 }
 
+.slbCaption {
+    display: inline-block;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    font-size: 1em;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.71429em 0;
+    color: #fff;
+    color: rgba(255,255,255,0.7);
+    text-align: center;
+}
+
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   background-color: #fff;
