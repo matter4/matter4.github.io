@@ -612,37 +612,7 @@ progress {
   max-width: 100%;
   height: auto;
 } 
-@media (min-width: 1400px) {
-  .img-fluid {
-    max-width: 90%;
-   height: auto;
-  }
-}
-@media (min-width: 1200px) {
-  .img-fluid {
-    max-width: 80%;
-   height: auto;
-  }
-}
-@media (min-width: 992px) {
-  .img-fluid {
-    max-width: 70%;
-   height: auto;
-  }
-}
-@media (min-width: 768px) {
-  .img-fluid {
-    max-width: 60%;
-   height: auto;
-  }
-}
-@media (min-width: 576px) {
-  .img-fluid {
-    max-width: 50%;
-   height: auto;
-  }
-}
-
+ 
 .img-logo {
   max-width: 17%;
   height: auto;
