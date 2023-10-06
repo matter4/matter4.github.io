@@ -641,6 +641,10 @@ progress {
   max-width: 100%;
   height: auto;
 }
+.img-marketing{
+  max-width: 100%;
+  height: auto;
+}
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
