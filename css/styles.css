@@ -7769,6 +7769,11 @@ textarea.form-control-lg {
   margin-bottom: 1.5rem !important;
 }
 
+.mb-4-1 {
+  margin-bottom: 1.5rem !important;
+  font-weight:bold;
+}
+
 .mb-5 {
   margin-bottom: 3rem !important;
 }
