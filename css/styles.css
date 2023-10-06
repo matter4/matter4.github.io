@@ -11016,10 +11016,16 @@ hr.divider-light {
   color: #2361ac !important;
 }
 @media (min-width: 992px) {
-  #mainNav {
+ /* #mainNav {
     box-shadow: none;
     background-color: transparent;
+  } */
+  
+   #mainNav {
+    box-shadow: none;
+    background-color: #fff;
   }
+  
   #mainNav .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
   }
