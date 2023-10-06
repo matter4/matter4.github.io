@@ -11032,6 +11032,7 @@ hr.divider-light {
   #mainNav .navbar-brand:hover {
     color: #fff;
   }
+  /*
   #mainNav .navbar-nav .nav-item .nav-link {
     color: rgba(255, 255, 255, 0.7);
     padding: 0 1rem;
@@ -11039,6 +11040,16 @@ hr.divider-light {
   #mainNav .navbar-nav .nav-item .nav-link:hover {
     color: #fff;
   }
+  */
+
+  #mainNav .navbar-nav .nav-item .nav-link {
+    color: #212529;
+    padding: 0 1rem;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #2361ac;
+  }
+  
   #mainNav .navbar-nav .nav-item:last-child .nav-link {
     padding-right: 0;
   }
