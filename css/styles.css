@@ -10996,7 +10996,12 @@ hr.divider-light {
     text-align: center;
 }
 /*
-
+#mainNav {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+  transition: background-color 0.2s ease;
+}
+*/
 .contact-basic{
     float: left;
     width: 100%;
@@ -11008,12 +11013,6 @@ hr.divider-light {
     width: 50%;
     height: auto;
 }
-#mainNav {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  background-color: #fff;
-  transition: background-color 0.2s ease;
-}
-*/
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   background-color: #fff;
