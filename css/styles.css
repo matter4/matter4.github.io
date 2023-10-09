@@ -10996,6 +10996,18 @@ hr.divider-light {
     text-align: center;
 }
 /*
+
+.contact-basic{
+    float: left;
+    width: 100%;
+    height: auto;
+}
+
+.contact-partition{
+    float: left;
+    width: 50%;
+    height: auto;
+}
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   background-color: #fff;
