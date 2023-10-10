@@ -11026,8 +11026,8 @@ hr.divider-light {
 } 
 
 .map{
-   width:100%;
-   min-height:300px;
+   min-width:400px;
+   min-height:400px;
    border:0; 
 } 
 #mainNav {
