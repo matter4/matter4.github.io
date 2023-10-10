@@ -11029,6 +11029,11 @@ hr.divider-contact {
   transition: background-color 0.2s ease;
 }
 */
+
+.middle-title{
+  font-weight: bold;
+  color: #000 !important;
+}
 .contact-basic{
     float: left;
     width: 100%;
