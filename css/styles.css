@@ -1050,6 +1050,13 @@ progress {
     flex: 0 0 auto;
     width: 50%;
   }
+
+  @media (min-width: 576px)
+.col-sm-6 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
   .col-sm-7 {
     flex: 0 0 auto;
     width: 58.33333333%;
@@ -1389,6 +1396,12 @@ progress {
     flex: 0 0 auto;
     width: 50%;
   }
+
+  @media (min-width: 992px)
+.col-lg-6 {
+    flex: 0 0 auto;
+    width: 42%;
+}
   .col-lg-7 {
     flex: 0 0 auto;
     width: 58.33333333%;
@@ -11016,10 +11029,10 @@ hr.divider-light {
 
 .v-line{
     border-left : thin solid #444444;
-    height : 10px;
+    height : px;
     margin-left: 5px;
     margin-right: 10px;
-}
+} 
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   background-color: #fff;
