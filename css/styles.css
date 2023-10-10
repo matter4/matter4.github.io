@@ -8117,6 +8117,13 @@ textarea.form-control-lg {
   text-align: center !important;
 }
 
+.text-center-contact {  
+  text-align: center !important;
+  margin-bottom: 30px;
+}
+
+
+
 .text-decoration-none {
   text-decoration: none !important;
 }
