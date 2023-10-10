@@ -11028,6 +11028,12 @@ hr.divider-light {
     margin-left: 5px;
     margin-right: 10px;
 } 
+
+.map{
+   width:100%;
+   min-height:300px;
+   border:0; 
+} 
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   background-color: #fff;
