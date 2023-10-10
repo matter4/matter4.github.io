@@ -8217,10 +8217,10 @@ textarea.form-control-lg {
 }
 
 .text-muted2 {
---bs-text-opacity: 1;
-    color: #6c757d !important;
-    float: left;
+  --bs-text-opacity: 1;
+    color: #6c757d !important; 
     padding-left: 10%;
+    text-align: left !important;
 }
 
 .text-black-50 {
