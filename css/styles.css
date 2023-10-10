@@ -10994,7 +10994,11 @@ hr.divider-light {
 }
 
 hr.divider-contact {
-  order: solid 1px #cdcdcd; width: 50%;margin: 0px auto;
+  width: 50%;
+    height: 0.1rem;
+    margin: 1.5rem auto;
+    background-color: #2361ac;
+    opacity: 1;
 }
 
 .slbCaption {
