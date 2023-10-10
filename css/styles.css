@@ -8216,6 +8216,13 @@ textarea.form-control-lg {
   color: #6c757d !important;
 }
 
+.text-muted2 {
+--bs-text-opacity: 1;
+    color: #6c757d !important;
+    float: left;
+    padding-left: 10%;
+}
+
 .text-black-50 {
   --bs-text-opacity: 1;
   color: rgba(0, 0, 0, 0.5) !important;
