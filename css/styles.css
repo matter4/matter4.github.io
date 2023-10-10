@@ -11015,7 +11015,7 @@ hr.divider-light {
 }
 
 .v-line{
-    border-left : medium solid #2361ac;
+    border-left : thin solid #444444;
     height : 10px;
 }
 #mainNav {
