@@ -11291,3 +11291,29 @@ header.masthead h1, header.masthead .h1 {
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
+
+.slbOverlay {
+    overflow: hidden;
+    z-index: 2000;
+    background-color: #fff;
+    opacity: 1;
+    -webkit-animation: slbOverlay 0.5s;
+    -moz-animation: slbOverlay 0.5s;
+    animation: slbOverlay 0.25s; 
+}
+.slbCaption{
+        display: inline-block;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    font-size: 1em;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.71429em 0;
+    color: #000;
+    text-align: center;
+}
