@@ -11308,7 +11308,7 @@ header.masthead h1, header.masthead .h1 {
     text-overflow: ellipsis;
     white-space: nowrap;
     word-wrap: normal;
-    font-size: 1em;
+    font-size: 1.1em;
     position: absolute;
     left: 0;
     right: 0;
@@ -11316,4 +11316,19 @@ header.masthead h1, header.masthead .h1 {
     padding: 0.71429em 0;
     color: #000;
     text-align: center;
+}
+
+.slbCloseBtn {
+    -webkit-animation: slbEnter 0.3s;
+    -moz-animation: slbEnter 0.3s;
+    animation: slbEnter 0.3s;
+    font-size: 3em;
+    width: 1.66667em;
+    height: 1.66667em;
+    line-height: 1.66667em;
+    position: absolute;
+    right: -0.33333em;
+    top: 0;
+    text-align: center;
+    color: #000;
 }
