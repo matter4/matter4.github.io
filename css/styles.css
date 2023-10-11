@@ -11003,16 +11003,7 @@ body {
   border: none;
   border-radius: 10rem;
 }
-
-.btn-xl-about {
-  padding: 1.25rem 2.25rem;
-  font-size: 0.85rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  border: none;
-  border-radius: 10rem;
-  margin-top: 67px;
-}
+ 
 
 hr.divider {
   height: 0.2rem;
