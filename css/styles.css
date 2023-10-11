@@ -11087,12 +11087,7 @@ hr.divider-contact {
    min-width:400px;
    min-height:400px;
    border:0; 
-} 
-.font-weight-bold{
-    font-weight: bold;
-    font-size: 3rem;
-    text-align: center; 
-}
+}  
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   background-color: #fff;
