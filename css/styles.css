@@ -11339,3 +11339,15 @@ header.masthead h1, header.masthead .h1 {
 .slbArrow.prev:before {
     border-right-color: #000;
 }
+
+.slbImageWrap:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 5em;
+    bottom: 5em;
+    display: block;
+    z-index: -1;
+    background-color: #FFF;
+}
