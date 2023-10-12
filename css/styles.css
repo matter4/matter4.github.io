@@ -11295,8 +11295,7 @@ header.masthead h1, header.masthead .h1 {
 .slbOverlay {
     overflow: hidden;
     z-index: 2000;
-    background-color: #000;
-    opacity: 0.7;
+    background-color: #000; 
     -webkit-animation: slbOverlay 0.25s;
     -moz-animation: slbOverlay 0.25s;
     animation: slbOverlay 0.25s;
