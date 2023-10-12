@@ -11295,11 +11295,11 @@ header.masthead h1, header.masthead .h1 {
 .slbOverlay {
     overflow: hidden;
     z-index: 2000;
-    background-color: #fff;
-    opacity: 1;
-    -webkit-animation: slbOverlay 0.5s;
-    -moz-animation: slbOverlay 0.5s;
-    animation: slbOverlay 0.25s; 
+    background-color: #000;
+    opacity: 0.7;
+    -webkit-animation: slbOverlay 0.25s;
+    -moz-animation: slbOverlay 0.25s;
+    animation: slbOverlay 0.25s;
 }
 .slbCaption{
         display: inline-block;
@@ -11345,9 +11345,20 @@ header.masthead h1, header.masthead .h1 {
     position: absolute;
     left: 0;
     right: 0;
-    top: 5em;
-    bottom: 5em;
+    top: 0em;
+    bottom: 0em;
     display: block;
     z-index: -1;
     background-color: #FFF;
+}
+
+.slbImage {
+    width: auto;
+    max-width: 64%;
+    height: auto;
+    display: block;
+    line-height: 0;
+    box-sizing: border-box;
+    padding: 5em 0;
+    margin: 0 auto;
 }
