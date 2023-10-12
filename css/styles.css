@@ -11332,3 +11332,10 @@ header.masthead h1, header.masthead .h1 {
     text-align: center;
     color: #000;
 }
+
+.slbArrow.next:before {
+    border-left-color: #000;
+}
+.slbArrow.prev:before {
+    border-right-color: #000;
+}
