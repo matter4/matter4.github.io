@@ -11326,12 +11326,11 @@ header.masthead h1, header.masthead .h1 {
     height: 1.66667em;
     line-height: 1.66667em;
     position: absolute;
-    right: -0.33333em;
+    right: 0.4em;
     top: 0;
     text-align: center;
     color: #000;
 }
-
 .slbArrow.next:before {
     border-left-color: #000;
 }
@@ -11360,4 +11359,17 @@ header.masthead h1, header.masthead .h1 {
     box-sizing: border-box;
     padding: 5em 0;
     margin: 0 auto;
+}
+
+.slbContentOuter {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px auto;
+    padding: 0px 0em;
+    box-sizing: border-box;
+    z-index: 2020;
+    text-align: left;
+    max-width: 100%;
+    margin-lefg: -100px;
 }
