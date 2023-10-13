@@ -674,6 +674,11 @@ progress {
   height: auto;
 }
 
+.img-partnership{
+  max-width: 90%;
+  height: auto;
+}
+
 .img-build {
   max-width: 90%;
   height: auto;
