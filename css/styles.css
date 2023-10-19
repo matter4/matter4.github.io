@@ -684,7 +684,8 @@ progress {
   height: auto;
 }
 .img-more {
-  max-width: 90%;
+  padding-top: 1%;
+  max-width: 94%;
   height: auto;
 }
 
@@ -11423,7 +11424,7 @@ a{text-decoration:none;}
     left: 50%;
     overflow: auto;
     height: auto;
-    width: 74%;
+    width: 85%;
     transform: translate(-50%, -50%);
     z-index: 1002;
     box-sizing: border-box;
