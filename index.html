@@ -29,12 +29,12 @@
             }
 
             // 외부영역 클릭 시 팝업 닫기
-            document.addEventListener('mouseup', function(e) {
-                var container = document.getElementById("popup_layer");
-                if (!container.contains(e.target)) {
-                    container.style.display = 'none';
-                }
-            });
+              $(document).mouseup(function (e){
+                    var container = $('popup_box');
+                    if( container.has(e.target).length === 0){
+                      container.css('display','none');
+                    } 
+              });
         </script>
     </head>
     <body oncontextmenu='return false' onselectstart='return false' ondragstart='return false' id="page-top">
