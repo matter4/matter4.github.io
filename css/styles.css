@@ -11384,3 +11384,11 @@ header.masthead h1, header.masthead .h1 {
     max-width: 100%;
     margin-lefg: -100px;
 }
+
+#test .slbArrows {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    right: 0;
+    display:none;
+}
