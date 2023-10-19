@@ -27,6 +27,14 @@
             function closePop() {
                 document.getElementById("popup_layer").style.display = "none";
             }
+
+            // 외부영역 클릭 시 팝업 닫기
+            $(document).mouseup(function (e){
+              var LayerPopup = $(".popup_layer");
+              if(LayerPopup.has(e.target).length === 0){
+                LayerPopup.removeClass("show");
+              }
+            });
         </script>
     </head>
     <body oncontextmenu='return false' onselectstart='return false' ondragstart='return false' id="page-top">
