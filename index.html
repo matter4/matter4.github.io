@@ -26,15 +26,15 @@
             //팝업 닫기
             function closePop() {
                 document.getElementById("popup_layer").style.display = "none";
+            } 
+            
+             // 팝업 외부 영역 클릭 시 팝업 닫기
+            window.onclick = function (event) {
+                var popupLayer = document.getElementById("popup_layer");
+                if (event.target == popupLayer) {
+                    closePop();
+                }
             }
-
-            // 외부영역 클릭 시 팝업 닫기
-              $(document).mouseup(function (e){
-                    var container = $('popup_box');
-                    if( container.has(e.target).length === 0){
-                      container.css('display','none');
-                    } 
-              });
         </script>
     </head>
     <body oncontextmenu='return false' onselectstart='return false' ondragstart='return false' id="page-top">
