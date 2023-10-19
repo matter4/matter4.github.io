@@ -18,24 +18,16 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" /> 
         <script>
-            var target = document.querySelectorAll('.btn_open');
-            var btnPopClose = document.querySelectorAll('.pop_wrap .btn_close');
-            var targetID;
-            
-            // 팝업 열기
-            for(var i = 0; i < target.length; i++){
-              target[i].addEventListener('click', function(){
-                targetID = this.getAttribute('href');
-                document.querySelector(targetID).style.display = 'block';
-              });
-            }
-            
-            // 팝업 닫기
-            for(var j = 0; j < target.length; j++){
-              btnPopClose[j].addEventListener('click', function(){
-                this.parentNode.parentNode.style.display = 'none';
-              });
-            }
+            function openPopup() {
+                var _width = '650';
+                var _height = '380';
+                // 팝업을 가운데 위치시키기 위해 아래와 같이 값 구하기
+                var _left = Math.ceil(( window.screen.width - _width )/2);
+                var _top = Math.ceil(( window.screen.height - _height )/2); 
+                
+                window.open('/url', 'popup-test', 'width='+ _width +', height='+ _height +', left=' + _left + ', top='+ _top );
+                
+                }
         </script>
     </head>
     <body oncontextmenu='return false' onselectstart='return false' ondragstart='return false' id="page-top">
@@ -78,7 +70,7 @@
                                        <!-- <div class="project-name" style="font-size: 5rem !important; font-weight:bold;">MES</div> -->
                                     <!-- </div> -->
                                     <!-- </a> -->
-                                    <a class="btn btn-primary btn-xl btn_open" style="margin-top:90px;" href="Page.html" onclick="window.open(this.href, '_blank', 'width=800, height=600'); return false;">  
+                                    <a class="btn btn-primary btn-xl btn_open" style="margin-top:90px;" href="Page.html" onclick="window.open(this.href, 'Name', 'Option'); return false;">  
                                     <span style="font-size: 1.25rem;font-weight:900; text-transform:none">VIEW MORE</span>
                                     </a> 
                                 </div>
